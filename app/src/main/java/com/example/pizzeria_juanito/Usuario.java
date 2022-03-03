@@ -19,6 +19,7 @@ public class Usuario extends AppCompatActivity {
     public ImageButton atras3;
     String user,password,direccion;
     int valor;
+    String user2,pass2,address2;
 
 
 
@@ -35,13 +36,29 @@ public class Usuario extends AppCompatActivity {
         ajustes = getSharedPreferences(getString(R.string.app_name),MODE_PRIVATE);
         SharedPreferences.Editor editor = ajustes.edit();
 
+
+
         Bundle extras = getIntent().getExtras();
         valor = extras.getInt("Boton");
+
+        user2 = ajustes.getString("Usuario","");
+        pass2 = ajustes.getString("Contraseña","");
+        address2 = ajustes.getString("Direccion","");
+
+        if (user2.length()>0 && pass2.length()>0 && address2.length()>0 && valor ==0)
+        {
+            Intent i = new Intent(getApplicationContext(),MainActivity.class);
+            startActivity(i);
+            finish();
+        }
+
+
 
         if (valor == 1)
         {
             atras3.setVisibility(View.VISIBLE);
         }
+
 
 
 
