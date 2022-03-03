@@ -37,7 +37,8 @@
             android:id="@+id/txtAddess"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#00FFFFFF"
+            android:background="#FFFFFF"
+            android:backgroundTint="#3E757373"
             android:hint="@string/txtAddess" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -88,7 +89,8 @@
             android:id="@+id/txtpass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#00FFFFFF"
+            android:background="#FFFFFF"
+            android:backgroundTint="#3E757373"
             android:hint="@string/txtpass"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -107,7 +109,8 @@
             android:id="@+id/txtConfirmarPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#00FFFFFF"
+            android:background="#FFFFFF"
+            android:backgroundTint="#3E757373"
             android:hint="@string/txtConfirmarPass"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -127,7 +130,8 @@
             android:id="@+id/txtNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#00FFFFFF"
+            android:background="#FFFFFF"
+            android:backgroundTint="#3E757373"
             android:hint="@string/txtNombre" />
     </com.google.android.material.textfield.TextInputLayout>
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Pizzeria_Juanito</string>
+    <string name="app_name">Pizzeria Juanito</string>
     <string name="txtPizza">Pizza Pequeña</string>
     <string name="txtNombre">Ingrese Su Nombre</string>
     <string name="txtAddess">Ingrese Su Dirección</string>
