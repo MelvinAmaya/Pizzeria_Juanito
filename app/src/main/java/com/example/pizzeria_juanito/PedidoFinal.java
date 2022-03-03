@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class PedidoFinal extends AppCompatActivity {
     private SharedPreferences ajustes3;
@@ -36,7 +37,9 @@ public class PedidoFinal extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(i);
+                Toast.makeText(getApplicationContext(),"Pedido Realizado Con exito",Toast.LENGTH_LONG);
                 finish();
+
             }
         });
 

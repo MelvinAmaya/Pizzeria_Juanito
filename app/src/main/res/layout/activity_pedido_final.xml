@@ -41,8 +41,8 @@
 
     <Button
         android:id="@+id/btnAceptar"
-        android:layout_width="107dp"
-        android:layout_height="51dp"
+        android:layout_width="163dp"
+        android:layout_height="52dp"
         android:text="Aceptar"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -164,8 +164,8 @@
 
     <Button
         android:id="@+id/btnEnviar"
-        android:layout_width="144dp"
-        android:layout_height="44dp"
+        android:layout_width="177dp"
+        android:layout_height="43dp"
         android:backgroundTint="#000000"
         android:text="Enviar..."
         app:cornerRadius="20dp"
